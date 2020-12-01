@@ -12,7 +12,7 @@ public class custom_order {
     // TEST CODE
     
     // STEP 2 CREATE A SCANNER OBEJCT, DECLARE VARAIBLES, & PRINT STATEMENTS
-	  
+	  Scanner sc =  new Scanner(System.in);
 
 	 
     // Introduce shop and prompt user to input first name
@@ -23,13 +23,13 @@ public class custom_order {
     // TEST CODE
     
     // STEP 3 INPUT YOUR NAME AND PREPARE TO VIEW MENU
-   
+   	String name = sc.next();
 	  
       
     // TEST CODE     
     
     // STEP 4 DISPLAY MENU
-
+System.out.println(name);
 	
       
 
